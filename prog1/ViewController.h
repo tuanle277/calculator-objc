@@ -9,6 +9,13 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *number;
+
+- (IBAction) numbers: (UIButton *)sender;
+- (IBAction) operation: (UIButton *)sender;
+- (IBAction) AC: (UIButton *)sender;
+- (IBAction) equal: (UIButton *)sender;
+
 
 @end
 
